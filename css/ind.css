@@ -1,0 +1,54 @@
+body {
+	background-image: url(bg.jpg);
+	background-attachment: fixed; 
+	font-family: 'Abel', sans-serif;
+	}
+
+
+h1 span {
+	font-size: 21px;
+	display: block;
+	color: #315a60;
+	margin-top: -5px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 50px;
+}
+
+
+
+#border {
+	border: 2px solid #315a60;
+	padding: 20px;
+	max-width: 700px;
+	margin: 20px auto;
+	background: white;
+
+}
+	
+
+.entry {
+	width: 720px;
+	display: block;
+	padding-top: 32px;
+	clear: both;
+	margin-left: 20px;
+}
+
+div.content {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	display: block;
+	padding-top: 20px;
+}
+
+.aline {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 500px;
+	margin-left: 50px;
+	margin-top: -10px;
+
+}
+
