@@ -27,7 +27,7 @@ h1 span {
 	
 
 .entry {
-	width: 720px;
+	width: 800px;
 	display: block;
 	padding-top: 32px;
 	clear: both;
@@ -52,3 +52,7 @@ div.content {
 
 }
 
+a:hover {
+	color: #709399;
+	text-decoration: none;
+}
