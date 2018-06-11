@@ -23,22 +23,22 @@ function backgroundChange() {
 
   // summer
   if (num_month <= 2 && num_month < 4) {
-    body.style.backgroundImage = 'url(back_ground/summer.jpg) no-repeat center';
+    body.style.backgroundImage = 'url(back_ground/summer.jpg) no-repeat';
   }
   // rainy
   else if (num_month <= 5 && num_month < 8) {
-    body.style.backgroundImage = 'url(back_ground/rainy.jpg) no-repeat center';
+    body.style.backgroundImage = 'url(back_ground/rainy.jpg) no-repeat';
   }
   // autum
   else if (num_month <= 9 && num_month < 10) {
-    body.style.backgroundImage = 'url(back_ground/autum.jpg) no-repeat center';
+    body.style.backgroundImage = 'url(back_ground/autum.jpg) no-repeat';
   }
   // winter
   else if (num_month == 11 || num_month == 0 || num_month == 1 ) {
-  body.style.backgroundImage = 'url(back_ground/Winter.jpg) no-repeat center';
+  body.style.backgroundImage = 'url(back_ground/Winter.jpg) no-repeat';
   }
   else {
-    body.style.backgroundImage = 'url(back_ground/summer.jpg) no-repeat center';
+    body.style.backgroundImage = 'url(back_ground/summer.jpg) no-repeat';
   }
 }
 
