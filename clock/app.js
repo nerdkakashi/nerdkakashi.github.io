@@ -15,6 +15,35 @@ function changeImg() {
 
 changeImg();
 
+// change backgound image with months
+function backgroundChange() {
+  const time = new Date();
+  let num_month = time.getMonth();
+  let body = document.getElementsByTagName('body')[0];
+
+  // summer
+  if (num_month <= 2 && num_month < 4) {
+    body.style.backgroundImage = 'url(back_ground/summer.jpg)';
+  }
+  // rainy
+  else if (num_month <= 5 && num_month < 8) {
+    body.style.backgroundImage = 'url(back_ground/rainy.jpg)';
+  }
+  // autum
+  else if (num_month <= 9 && num_month < 10) {
+    body.style.backgroundImage = 'url(back_ground/autum.jpg)';
+  }
+  // winter
+  else if (num_month == 11 || num_month == 0 || num_month == 1 ) {
+  body.style.backgroundImage = 'url(back_ground/Winter.jpg)';
+  }
+  else {
+    body.style.backgroundImage = 'url(back_ground/summer.jpg)';
+  }
+}
+
+backgroundChange();
+
 function clock() {
   const fullclock = new Date();
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
